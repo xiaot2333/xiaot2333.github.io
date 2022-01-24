@@ -343,8 +343,9 @@ function shareText(score) {
     SubmitResults();
     if (score <= 49) return '您是gachi？';
     if (score <= 99) return 'bbzl';
+    if (score <= 129) return '你是笨比！';
     if (score <= 149) return '我不好说了';
-    if (score <= 199) return '您就是anti头子？';
+    if (score <= 169) return '您就是anti头子？';
     return '人？';
 }
 
